@@ -7,14 +7,17 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import { BrowserRouter as Router, Route, Switch, Routes } from 'react-router-dom';
 import Home from './views/Home';
-import Nav from './components/Nav'
+import Nav from './components/Nav';
+import LanguageSelector from './components/LanguageSelector';
 
 
 const App = () => {
   return (
   <div>
+    {/* <LanguageSelector /> */}
     <Nav/>
     <Routes>
+      <Route path="/languages" element={<LanguageSelector />} />
       <Route path="/" element={ <Home /> }/>
       <Route path="/aboutme" element={ <AboutMe /> }/>
       <Route path="/contact" element={ <Contact /> }/>   

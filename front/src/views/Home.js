@@ -1,10 +1,12 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Home = () => {
-  return (
+  const { t } = useTranslation();
+  return (    
     <div>
-      <h1>Bienvenido a Mi Portfolio</h1>
-      <p>Descubre más sobre mí y mis proyectos.</p>
+      <h1>{t('welcome')}</h1>
+      <p>{t('introduction')}</p>
     </div>
   );
 };
