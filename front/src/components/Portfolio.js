@@ -4,7 +4,6 @@ import Projects from './Projects';
 import Contact from './Contact';
 import { Link } from 'react-router-dom';
 
-
 const Portfolio = () => {
   return (
     <div>

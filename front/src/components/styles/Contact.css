@@ -1,0 +1,14 @@
+.phone-link,
+.email-link,
+.linkedin-link {
+  color: #0077b5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.phone-link:hover,
+.email-link:hover,
+.linkedin-link:hover {
+  text-decoration: underline;
+	color:#333;
+}

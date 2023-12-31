@@ -10,22 +10,19 @@ import Home from './views/Home';
 import Nav from './components/Nav';
 import LanguageSelector from './components/LanguageSelector';
 
-
 const App = () => {
   return (
   <div>
-    {/* <LanguageSelector /> */}
     <Nav/>
     <Routes>
       <Route path="/languages" element={<LanguageSelector />} />
       <Route path="/" element={ <Home /> }/>
-      <Route path="/aboutme" element={ <AboutMe /> }/>
+      <Route path="/about" element={ <AboutMe /> }/>
       <Route path="/contact" element={ <Contact /> }/>   
       <Route path="/projects" element={ <Projects /> }/>  
       <Route path="/portfolio" element={ <Portfolio /> }/>    
     </Routes>
   </div>
-
   );
 };
 
