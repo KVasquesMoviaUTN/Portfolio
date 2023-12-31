@@ -1,14 +1,50 @@
+.contact {
+  font-size: 4vh;
+  color: #333;
+  margin-bottom: 4vh;
+  margin-top: 5vh;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; 
+  /* width: 100%; */
+}
+
+.contact-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
 .phone-link,
 .email-link,
 .linkedin-link {
+  width: 40vw;
+  margin: 1vh; 
+  padding: 3vh 20vw;
+  border: 0.5vh solid #0077b5;
+  border-radius: 1vh;
   color: #0077b5;
   text-decoration: none;
   font-weight: bold;
+  transition: all 0.3s ease;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2vh;
+  background-color: #ccc;
 }
 
 .phone-link:hover,
 .email-link:hover,
 .linkedin-link:hover {
-  text-decoration: underline;
-	color:#333;
+  background-color: #0077b5; /* Cambio de color al pasar el ratón */
+  color: #eee; /* Texto en blanco al pasar el ratón */
 }

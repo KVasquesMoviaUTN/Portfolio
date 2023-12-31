@@ -1,14 +1,12 @@
 import React from 'react';
-
+import { useTranslation } from 'react-i18next';
 
 const AboutMe = () => {
+  const { t } = useTranslation();
   return (
     <div>
-      <h2>Sobre Mí</h2>
-      <p>Soy un estudiante de 3er año de Ingeniería en Sistemas de Información en la Universidad Tecnológica Nacional (UTN). Apasionado por la
-tecnología y el desarrollo de software, poseo una sólida base en
-programación y resolución de problemas. Soy una persona comprometida,
-autodidacta y con excelentes habilidades de trabajo en equipo.</p>
+      <h2>{t('about')}</h2>
+      <p>{t('description')}</p>
     </div>
   );
 };
