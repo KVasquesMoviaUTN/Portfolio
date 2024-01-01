@@ -7,19 +7,16 @@ const Contact = () => {
       <h2 class="contact">Contacto</h2>
       <div className="contact-options">
         <p>
-          Para cualquier consulta, llámame al{' '}
           <a href="tel:+5401139276499" className="phone-link">
             +54 011 3927 6499
           </a>
         </p>
         <p>
-          Para cualquier consulta, envíame un correo electrónico:{' '}
           <a href="mailto:kalilvasquesmovia@gmail.com" className="email-link">
             kalilvasquesmovia@gmail.com
           </a>
         </p>
         <p>
-          Conéctate conmigo en LinkedIn:{' '}
           <a className="linkedin-link" href="https://www.linkedin.com/in/kalil-vasques-movia" target="_blank" rel="noopener noreferrer">
             Linkedin
           </a>

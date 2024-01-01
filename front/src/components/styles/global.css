@@ -1,6 +1,20 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #ddd; 
-	color: #333;
+}
+
+.app-container {
+  /* Estilos adicionales según tus necesidades */
+}
+
+.dark-theme {
+  /* Estilos específicos para el modo oscuro */
+  background-color: #333;
+  color: #ddd;
+}
+
+.light-theme {
+  /* Estilos específicos para el modo claro */
+  background-color: #ddd;
+  color: #333;
 }
