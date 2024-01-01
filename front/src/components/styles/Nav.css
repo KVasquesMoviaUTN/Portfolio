@@ -1,38 +1,49 @@
 nav {
   background-color: #333;
-  padding: 1%;
   text-align: center;
 }
 
 ul {
-  list-style-type: none; /* Elimina los estilos de la lista (puntos) */
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 li {
   display: inline-block;
-  margin-right: 5%; 
-	margin-left: 5%;
+  padding: 2vh 0;
+  transition: all 0.5s ease;
 }
 
 a {
   text-decoration: none;
   color: #eee; 
   font-weight: bold;
-  font-size: 16px;
+  font-size: 2.5vh;
+  padding: 2vh 5vw;
+  transition: all 0.5s ease;
 }
 
-#language-selector {
-  position: fixed;
-  top: 0;
-  right: 0;
-  /* padding: 0.7%; */
-
+#language-selector,
+#color-selector{
+  padding: 0;
 }
 
-.language-select {
-  font-size: 16px; 
-  padding: 10%;
-  /*width: 150px;*/
+#language-select,
+#color-selector-button {
+  font-size: 2.5vh; 
+  color: #eee;
+  padding: 2vh 5vw;
+  font-weight: bold;
+  background-color: #333;
+  border: 0;
+  transition: all 0.5s ease;
+}
+
+#language-select:hover,
+#color-selector-button:hover,
+nav-element:hover,
+a:hover{
+  color: #333;
+  background-color: #eee;
 }

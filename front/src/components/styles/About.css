@@ -1,0 +1,21 @@
+/* .about-container {
+  display: flex;
+} */
+
+.container,
+.container-description,
+.topic{
+	display: block;
+}
+
+.container {
+  font-weight: bold;
+	padding: 5vh;
+	font-size: 3vh;
+}
+
+.container-description {
+  margin-left: 6vw;
+	font-size: 2vh;
+}
+
