@@ -1,5 +1,4 @@
 nav {
-  background-color: #333;
   text-align: center;
 }
 
@@ -12,16 +11,14 @@ ul {
 li {
   display: inline-block;
   padding: 2vh 0;
-  transition: all 0.5s ease;
 }
 
 a {
   text-decoration: none;
-  color: #eee; 
   font-weight: bold;
   font-size: 2.5vh;
   padding: 2vh 5vw;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease; 
 }
 
 #language-selector,
@@ -32,18 +29,46 @@ a {
 #language-select,
 #color-selector-button {
   font-size: 2.5vh; 
-  color: #eee;
   padding: 2vh 5vw;
   font-weight: bold;
-  background-color: #333;
   border: 0;
   transition: all 0.5s ease;
 }
 
-#language-select:hover,
-#color-selector-button:hover,
-nav-element:hover,
+.nav-dark-theme {
+  background-color: #222;
+}
+
+.nav-light-theme {
+  background-color: #aaa;
+}
+
+.nav-element-dark-theme,
+.nav-color-dark-theme,
+.nav-language-dark-theme {
+  background-color: #222;
+  color: #ddd;
+}
+
+.nav-element-light-theme,
+.nav-color-light-theme,
+.nav-language-light-theme {
+  background-color: #aaa;
+  color: #222;
+}
+
+.nav-language-dark-theme:hover,
+.nav-color-dark-theme:hover,
+.nav-element-dark-theme:hover,
 a:hover{
-  color: #333;
-  background-color: #eee;
+  color: #444;
+  background-color: #ccc;
+}
+
+.nav-language-light-theme:hover,
+.nav-color-light-theme:hover,
+.nav-element-light-theme:hover,
+a:hover{
+  color: #ccc;
+  background-color: #444;
 }

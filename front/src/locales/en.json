@@ -1,17 +1,33 @@
 {
   "translation": {
-    "welcome": "Welcome",
     "about": "About Myself",
-    "contact": "Contact",
-    "introduction": "This is an introduction",
+    "introduction": "INFORMATIC ENGINEERING STUDENT",
     "about-description": "I am a 3rd year student of Information Systems Engineering at the National Technological University (UTN). Passionate about technology and software development, I have a solid foundation in programming and problem solving. I am a committed, self-taught person with excellent teamwork skills.",
+    
     "education":"Education",
-    "education-description":"Information Engineering",
+    "education-description-header-1":"INFORMATIC SYSTEMS ENGINEERING - BACHELOR",
+    "education-description-1":"2022 - Present | National Technologic University (UTN) \n-Software development \n-Fundamental Sciences Knowledge \n-Systems and Process Management \n-16 Subjects passed - GPA 8.5/10",
+    "education-description-header-2":"ELECTRONICS TECHNICAL - HIGH SCHOOL",
+    "education-description-2":"2016 - 2021 | Pío IX \n-Math and Physics intensified high school \n-Electronics-oriented profile \n-Projects and profesionalizant practices",
+    
     "experience":"Experience",
-    "experience-description":"Back End Developer",
+    "experience-description-header-1":"FULL STACK DEVELOPER",
+    "experience-description-1":"2024 | GENERAL AUDIT OF BUENOS AIRES \n-Maintenenance and development of the organization´s integrated Management System \n-PHP Laravel \n-JavaScript React",
+    "experience-description-header-2":"BACK END DEVELOPER",
+    "experience-description-2":"2023 | National Technologic University \n-Trabajo organizado en equipo en un Agile Squad \n-Proyecto Orientado a servicios \n-Java Spring Boot \n-Relational Persistence using ORM Hibernate",
+    "experience-description-header-3":"Recon Center Internship",
+    "experience-description-3":"2021 | Evernex \n-Informatic Systems Maintenenance \n-Servers support",
+
+    "projects":"Projects",
+    "projects-description-header-1":"OPERATING SYSTEMS PRACTICE",
+    "projects-description-1":"2023 \n-Integrative project carried out for the subject Operating Systems \n-Group Work with the objective of replicating a Linux-type Operating System programmed in C",
+    "projects-description-header-2":"SMART LOCK WITH FINGERPRINT",
+    "projects-description-2":"2021 \n-Group work carried out as a final project of the school \n-Participated in the development of an automated lock with fingerprint and user recognition \n-I was in charge of developing the Android application with a database to associate and store each fingerprint to its user and time of entry",
+    
     "habilities":"Habilities",
-    "habilities-description":"Team Work",
+    "habilities-description":"Team Work\nCommunication\nProblem Solving\nAdaptability",
+
     "tech-habilities":"Tech habilities",
-    "tech-habilities-description":"C/C++"
+    "tech-habilities-description":"C/C++ \n Arduino\nJava\nGit\nJavaScript\nSQL\nPython"    
   }
 }

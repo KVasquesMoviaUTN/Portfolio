@@ -4,6 +4,25 @@
     "about": "Sobre Mí",
     "contact": "Contacto",
     "introduction": "Esto es una introducción xd",
-    "description": "Soy un estudiante de 3er año de Ingeniería en Sistemas de Información en la Universidad Tecnológica Nacional(UTN). Apasionado por la tecnología y el desarrollo de software poseo una sólida base en programación y resolución de problemas. Soy una persona comprometida, autodidacta y con excelentes habilidades de trabajo en equipo"
+    "about-description": "Soy un estudiante de 3er año de Ingeniería en Sistemas de Información en la Universidad Tecnológica Nacional(UTN). Apasionado por la tecnología y el desarrollo de software poseo una sólida base en programación y resolución de problemas. Soy una persona comprometida, autodidacta y con excelentes habilidades de trabajo en equipo.",
+    
+    "education":"Educación",
+    "education-description-header-1":"INGENIERÍA EN SISTEMAS DE INFORMACION",
+    "education-description-1":"2022 - Actualidad | | Universidad Tecnológica Nacional (UTN) \n-Desarrollo de Software \n-Conocimiento de Ciencias Básicas \n-Administración de sistemas y procesos \n-16 Materias aprobadas - Promedio 8.5",
+    "education-description-header-2":"SECUNDARIO TÉCNICO EN ELECTRÓNICA",
+    "education-description-2":"2016 - 2021 | Pío IX \n-Colegio intensificado en Matemáticas y Física \n-Perfil orientado a electrónica \n-Proyectos y Prácticas Profesionalizantes",
+    
+    "experience":"Experiencia",
+    "experience-description-header-1":"DESARROLLADOR FULL STACK",
+    "experience-description-1":"2024 | Auditoría General de la Ciudad de Buenos Aires \n-Mantenimiento y desarrollo del sistema integrado de gestión de la organización \n-PHP Laravel \n-JavaScript React",
+    "experience-description-header-2":"DESARROLLADOR BACK END",
+    "experience-description-2":"2023 | Universidad Tecnológica Nacional \n-Trabajo organizado en equipo en un Agile Squad \n-Proyecto Orientado a servicios \n-Java Spring Boot \n-Relational Persistence using ORM Hibernate",
+    "experience-description-header-3":"Pasantía en Recon Center",
+    "experience-description-3":"2021 | Evernex \n-Mantenimiento de sistemas informáticos \n-Servicio Técnico orientado a servidores",
+
+    "habilities":"Habilidades",
+    "habilities-description":"Trabajo en Equipo\nComunicación\nResolución de problemas\nAdaptabilidad",
+    "tech-habilities":"Habilidades Técnicas",
+    "tech-habilities-description":"C/C++\nArduino\nJava\nGit\nJavaScript\nSQL\nPython"  
   }
 }

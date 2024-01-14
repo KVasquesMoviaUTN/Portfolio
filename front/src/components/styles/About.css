@@ -14,8 +14,10 @@
 	font-size: 3vh;
 }
 
-.container-description {
+.container-description,
+.container-description-body {
   margin-left: 6vw;
 	font-size: 2vh;
+  white-space: pre-line;
 }
 

@@ -25,14 +25,14 @@ const App = () => {
   return (
     <ThemeProvider theme={ theme }>
       <div className={`body ${toggleDarkMode ? 'dark-theme' : 'light-theme'}`}>
-          <Nav toggleDarkTheme={toggleDarkTheme} />
+          <Nav toggleDarkTheme={toggleDarkTheme} toggleDarkMode={toggleDarkMode}/>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/languages" element={<LanguageSelector />} />
+            <Route path="/languages" element={<LanguageSelector  />} />
             <Route path="/color" element={<ColorSelector />} />
           </Routes>
         </div>
