@@ -1,7 +1,8 @@
 {
+  "name": "mi-proyecto",  
+  "homepage": "https://KVasquesMoviaUTN.github.io/Portfolio/front",
   "dependencies": {
     "axios": "^1.6.3",
-    "react-router-dom": "^6.21.1",
-    "homepage": "https://KVasquesMoviaUTN.github.io/Portfolio/front"
+    "react-router-dom": "^6.21.1"
   }
 }
